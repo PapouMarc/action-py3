@@ -1,4 +1,4 @@
-![](https://github.com/PapouMarc/action-py3-selenium/workflows/Test%20Validation%20Action/badge.svg)
+![](https://github.com/PapouMarc/action-py3/workflows/Test%20Validation%20Action/badge.svg)
 
 
 # docker python3 and selenium action
@@ -19,6 +19,6 @@ return result.
 
 ## Example usage
 
-uses: actions/action-py3-selenium@v1
+uses: actions/action-py3@v1
 with:
   run-script-python3: 'test/version.py'
