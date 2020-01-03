@@ -1,4 +1,4 @@
-FROM papoumarc/ubuntu:ans-py3-pip3
+FROM papoumarc/ubuntu:bionic-j8-app
 
 COPY entrypoint.sh /entrypoint.sh
 RUN sudo chmod +x /entrypoint.sh
