@@ -1,4 +1,4 @@
-FROM papoumarc/ubuntu-jammy-j17-app:20220429
+FROM papoumarc/ubuntu-jammy-j17-app:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN sudo chmod +x /entrypoint.sh
