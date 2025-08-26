@@ -27,6 +27,6 @@ jobs:
       id: testAction
       uses: ./
       with:
-        run-script-python3: 'test/version.py'
+        run-script-python3: 'test/test.version.py'
     - name: Get the output result
       run: echo -e "The result is ${{ steps.testAction.outputs.result-python3 }}"
