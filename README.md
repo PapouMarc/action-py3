@@ -21,4 +21,4 @@ return result.
 
 uses: actions/action-py3@v1
 with:
-  run-script-python3: 'test/version.py'
+  run-script-python3: 'test/test.version.py'
